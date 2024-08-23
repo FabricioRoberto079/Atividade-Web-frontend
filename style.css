@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(rgba(30, 92, 85, 1), rgba(0, 30, 45, 1));
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+.logo img {
+    width: 250px;
+    height: 200px;
+}
+
+.conteiner {
+    background-color: rgba(4, 31, 25, 1);
+    border-radius: 40px;
+    height: auto;
+    width: 55%;
+    padding: 0px 20px 50px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 0px;
+}
+
+.inputDoConteiner {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+}
+
+.inputDoConteiner i#icon {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgba(19, 154, 137, 1);
+    font-size: 18px;
+}
+
+.inputDoConteiner input {
+    width: 100%;
+    padding: 10px 10px 10px 40px; /* Espaço extra à esquerda para o ícone */
+    border-radius: 40px;
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(4, 31, 25, 1);
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+}
+
+button {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 40px;
+    background-color: rgba(19, 154, 137, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
