@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -19,6 +19,7 @@ body {
     align-items: center;
     width: 100%;
     margin-bottom: 0px;
+    padding-bottom: 0px;
 }
 
 .logo img {
@@ -65,7 +66,7 @@ form {
 
 .inputDoConteiner input {
     width: 100%;
-    padding: 10px 10px 10px 40px; 
+    padding: 10px 10px 10px 40px;
     border-radius: 40px;
     background-color: rgba(255, 255, 255, 1);
     color: rgba(4, 31, 25, 1);
@@ -86,4 +87,137 @@ button {
     font-weight: bold;
     border: none;
     cursor: pointer;
+}
+
+@media (max-width: 926px) {
+    .logo img {
+        width: 200px;
+        height: 170px;
+    }
+
+    .inputDoConteiner {
+        position: relative;
+        width: 100%;
+        max-width: 200px;
+        margin-bottom: 10px;
+    }
+
+    .inputDoConteiner i#icon {
+        position: absolute;
+        left: 15px;
+        top: 50%;
+        transform: translateY(-50%);
+        color: rgba(19, 154, 137, 1);
+        font-size: 15px;
+    }
+
+    .inputDoConteiner input {
+        width: 100%;
+        padding: 10px 10px 10px 40px;
+        border-radius: 40px;
+        background-color: rgba(255, 255, 255, 1);
+        color: rgba(4, 31, 25, 1);
+        font-size: 12px;
+        font-weight: bold;
+        border: none;
+        height: 28px;
+    }
+
+}
+
+/* PAGINA PRINCIPAL*/
+.barraSuperior {
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+
+.logoBarra {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.logoBarra img {
+    width: 200px;
+    height: 180px;
+}
+
+.barraPesquisa {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    height: 30px;
+    width: 350px;
+    position: relative;
+
+}
+
+.barraPesquisa input {
+    position: absolute;
+    border-radius: 25px;
+    height: 100%;
+    width: 100%;
+    background-color: whitesmoke;
+    border: none;
+    font-size: 14px;
+    padding: 10px;
+    font-weight: bold;
+    color: rgb(26, 32, 49);
+}
+
+input::placeholder {
+    color: rgb(26, 32, 49);
+    opacity: 1;
+}
+
+.barraPesquisa i {
+    position: absolute;
+    right: 15px;
+    font-size: 14px;
+    color: rgb(26, 32, 49);
+    margin-left: 10px;
+}
+
+.linhaDivisoria {
+    width: 100%;
+    height: 3px;
+    background-color: whitesmoke;
+    position: fixed;
+    top: 80px;
+    left: 0;
+}
+@media (max-width: 926px){
+    .logoBarra img {
+        width: 150px;
+        height: auto;
+    }
+}
+@media (max-width: 800px){
+    .logoBarra img {
+        width: 100px;
+        height: auto;
+    }
+    .barraSuperior {
+        width: 100%;
+        height: 80px;
+        position: fixed;
+        top: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 10px;
+    }
+}
+@media (max-width: 926px){
+    .logoBarra img {
+        width: 150px;
+        height: auto;
+    }
 }
