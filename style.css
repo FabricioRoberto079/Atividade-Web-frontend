@@ -193,17 +193,20 @@ input::placeholder {
     top: 80px;
     left: 0;
 }
-@media (max-width: 926px){
+
+@media (max-width: 926px) {
     .logoBarra img {
         width: 150px;
         height: auto;
     }
 }
-@media (max-width: 800px){
+
+@media (max-width: 800px) {
     .logoBarra img {
         width: 100px;
         height: auto;
     }
+
     .barraSuperior {
         width: 100%;
         height: 80px;
@@ -215,9 +218,147 @@ input::placeholder {
         padding: 0 10px;
     }
 }
-@media (max-width: 926px){
+
+@media (max-width: 926px) {
     .logoBarra img {
         width: 150px;
         height: auto;
     }
+}
+
+/*FOOTER*/
+footer {
+    width: 100%;
+    color: whitesmoke;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footerContent {
+    width: 100%;
+    background-color: rgba(0, 30, 45, 1);
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    flex-wrap: wrap;
+}
+
+.footerLista {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.imagensDevs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footerLista .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footerLista p {
+    margin-top: 0.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.imgFeios {
+    height: 100px;
+    width: 100px;
+    border-radius: 80px;
+}
+
+.infContato {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: 3rem;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.subir {
+    top: 0;
+    flex: 1;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.subir a {
+    text-align: center;
+    width: 100%; 
+    text-decoration: none;
+    color: whitesmoke;
+}
+.subir a:visited {
+    text-align: center;
+    width: 100%; 
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.infContato a:visited{
+    color: whitesmoke;
+}
+
+@media (max-width: 803px) {
+    .footerLista {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footerLista .item {
+        width: 100%;
+        text-align: center;
+    }
+
+    .imgFeios {
+        height: 80px;
+        width: 80px;
+    }
+
+    .infContato {
+        width: 0;
+        margin-right: 10px;
+        padding: 10px 80px 10px 10px;
+    }
+    .infContato h2,
+    .infContato a {
+        display: flex;
+        flex-direction: column;
+    }
+    .infContato {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 250px;
+    }
+    .subir {
+        top: 0;
+        flex: 1;
+        left: 0;
+        display: flex;
+        align-items: normal;
+        margin-top: 40px;
+    }
+    
 }
