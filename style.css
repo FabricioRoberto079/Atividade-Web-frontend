@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -10,6 +12,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    font-family: "Noto Sans", sans-serif;
     align-items: center;
 }
 
@@ -38,7 +41,21 @@
     justify-content: center;
     align-items: center;
 }
-
+.alternativas{
+    margin-bottom: 20px;
+    display: flex;
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+.alternativas a:visited {
+    /* text-align: center; */
+    width: 100%; 
+    text-decoration: none;
+    color: whitesmoke;
+}
 form {
     display: flex;
     flex-direction: column;
@@ -272,7 +289,12 @@ footer {
     flex-direction: row;
     align-items: center;
     gap: 1rem;
+    transition: transform 0.3s ease;
 }
+.item:hover {
+    transform: scale(1.05);
+}
+
 
 .imagensDevs {
     display: flex;
@@ -323,6 +345,9 @@ footer {
 
     text-decoration: none;
     color: whitesmoke;
+}
+.subir:hover {
+    transform: scale(1.02);
 }
 
 .subir a {
@@ -487,13 +512,13 @@ footer {
 
 .presentation .text .tt {
     margin-bottom: 10px;
-    font-size: 24px;
-    color: #333;
+    font-size: 22px;
+    color: rgba(4, 31, 25, 1);;
 }
 
 .presentation .text li {
-    margin-left: 30px;
+    margin-left: 35px;
     margin-bottom: 5px;
-    color: #666;
+    color: rgba(4, 31, 25, 1);;
     line-height: 1.5;
 }
