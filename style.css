@@ -387,7 +387,7 @@ footer {
     }
     .personals{
         min-height: 100%;
-        padding-bottom: 810px;
+        padding: 0px 30px 810px 20px;
     }
     footer {
     height: 800px;
