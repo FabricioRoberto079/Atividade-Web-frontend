@@ -92,13 +92,26 @@ form {
     border: none;
 }
 
-button {
+#paginaPrincipal {
     width: 100%;
     max-width: 400px;
     margin-bottom: 20px;
     padding: 10px;
     border-radius: 40px;
     background-color: rgba(19, 154, 137, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+#registro{
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 40px;
+    background-color: rgba(37, 77, 81, 1);
     color: rgba(255, 255, 255, 1);
     font-size: 15px;
     font-weight: bold;
