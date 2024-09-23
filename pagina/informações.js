@@ -13,7 +13,7 @@ function alterarConteudo(event) {
 
         
         presentation.innerHTML = `
-            <img class="ft" src="/imgs/lixos.jpg" alt="Nova Imagem">
+            <img class="ft" src="imgs/lixos.jpg" alt="Nova Imagem">
             <div class="text">
                 <ul>
                     <li>Número: (79) 9xxxx-xxxx</li>
