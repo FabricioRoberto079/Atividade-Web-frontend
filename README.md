@@ -5,4 +5,4 @@ O VidaFit é um site inovador desenvolvido como parte de um projeto de faculdade
 Desenvolvedor: fabricioroberto360@gmail.com
 
 Link:
-https://fabricioroberto079.github.io/Atividade-Web-frontend/login.html
+[https://fabricioroberto079.github.io/Atividade-Web-frontend/login.html](https://fabricioroberto079.github.io/Atividade-Web-frontend/)
